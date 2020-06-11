@@ -1,0 +1,162 @@
+html, body{
+	margin: 0px;
+}
+.jumbotron {
+	position: relative;
+	align-content: center;
+	left: 39%;
+	top: 10%;
+	width: 100%;
+	/*opacity: 0.85;*/
+}
+.box{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image:url(./images/h1.jpg);
+	background-size: 100%;
+/*
+background-image : https://pexels.com/photo/construction-house-architecture-luxury-53610/
+*/
+}
+
+.login-register{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h3.jpg);
+
+	background-size: 100%;
+	/*
+background-image : https://unsplash.com/s/photos/home
+*/
+}
+.welcome{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h4.jpg);
+	background-size: 100%
+	/*
+background-image :https://unsplash.com/photos/R-LK3sqLiBw
+*/
+}
+.dashboard{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h14.jpg);
+	background-size: 100%;
+	/*
+background-image : https://unsplash.com/photos/qCjolcMFaLI
+*/
+}
+.admin{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h7.jpg);
+	/*
+background-image :https://unsplash.com/photos/nBuiLbz_j4A
+*/
+}
+.create{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h2.jpg);
+	/*
+background-image :https://www.pexels.com/photo/apartment-chair-clean-contemporary-279719/
+*/
+}
+.search{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h5.jpg);
+	/*
+background-image : https://unsplash.com/photos/XJnP4L958ds
+*/
+}
+.results{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h10.jpg);
+	/*
+background-image :https://www.pexels.com/photo/kitchen-island-2089698/
+*/
+}
+.detail{
+	position: relative;
+	top: 0px;
+	right: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/h9.jpg);
+	/*
+background-image :https://www.pexels.com/photo/architecture-bushes-chimneys-clouds-208736/
+*/
+}
+
+div.circleBehind a:before, 
+div.circleBehind a:after
+{
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #0277bd;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+div.circleBehind a:after
+{
+    border-width: 2px;
+    transition: all 0.4s;
+}
+
+div.circleBehind a:hover:before
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+div.circleBehind a:hover:after
+{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+}
+
+
+
+/*
+background-image : https://unsplash.com/s/photos/home
+*/
+
+
+
+
